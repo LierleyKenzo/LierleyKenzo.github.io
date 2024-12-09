@@ -1,0 +1,169 @@
+/* règles pour grands écrans */
+@media (min-width: 501px){
+
+}
+
+@media (max-width: 500px){
+    header li:nth-child(n+2){
+        display: none;
+    }
+}
+
+/* règles générales et pour petits écran */
+
+footer{
+    background-color: rgb(21, 21, 30);
+    color: white;
+    text-align: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+strong{
+    background-color: rgb(255,0,0);
+    padding: 5px;
+}
+
+strong:hover{
+    color: #222222;
+    background-color: #ff6666;
+}
+
+section p:last-child a, section p:last-child a:visited{
+    color: black;
+}
+
+section p:last-child a:active strong{
+    background-color: rgb(255,100,100);
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input[type="text"]{
+    width: 200px;
+    margin: 5px;
+}
+
+section > div img{
+    width: 50px;
+    height: 50px;
+}
+
+section > div{
+    display: flex;
+    border: black 1px solid;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+footer div{
+    margin-bottom: 10px;
+}
+
+button{
+    margin: 5px;
+    padding: 10px;
+    border-radius: 10px;
+    border: solid black 1px;
+    color: white;
+    background-color: red;
+}
+
+button:hover{
+    color: black;
+    background-color: #ff6666;
+}
+
+.acceuil{
+    text-align: center;
+}
+
+/* enlève les points devant la liste */
+/* met la liste en ligne */
+ul li{
+    list-style-type: none;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+body ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+header nav{
+    font-size: larger;
+    text-align: center;
+}
+
+header nav a, header nav a:visited{
+    color: black;
+}
+
+/* enlève le soulignement des liens */
+a{
+    text-decoration: none;
+}
+
+body > nav{
+    position: sticky;
+    top: 0;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    flex-grow: 1;
+    text-align: center;
+}
+
+body > nav a, body > nav a:visited{
+    display: block;
+    color: white;
+    background-color: rgb(21, 21, 30);
+    flex-grow: 1;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+body > nav a:hover{
+    color: black;
+    background-color: lightgrey;
+}
+
+body{
+    margin: 0;
+}
+
+#logo{
+    width: 100px;
+    height: 50px;
+}
+
+td{
+    text-align: center;
+}
+
+th{
+    padding-right: 7.5px;
+    padding-left: 7.5px;
+    background-color: red;
+}
+
+table, table *{
+    border: solid black 1px;
+    color: white;
+}
+
+table{
+    background-color: rgb(21, 21, 30);
+}
+
+#classement{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 5px;
+}
