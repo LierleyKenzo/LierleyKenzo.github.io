@@ -67,6 +67,7 @@ section > div img{
     background-color: #222222;
     color: white;
     border: black solid 2px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 #coureurs h3{
@@ -79,6 +80,7 @@ section > div img{
     border-bottom-left-radius: 20px;
     order: -1;
     border: black solid 2px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #coureurs > div{
@@ -95,6 +97,7 @@ section > div img{
     border-top-right-radius: 20px;
     height: 100%;
     border: #222222 solid 2px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 footer div{
