@@ -167,3 +167,20 @@ table{
     flex-direction: column;
     margin: 5px;
 }
+
+footer#src, footer#src a:visited{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+}
+
+footer#src ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+footer#src li{
+    margin: 7px;
+}
