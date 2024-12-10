@@ -53,11 +53,25 @@ section > div img{
     height: 50px;
 }
 
-section > div{
+#coureurs{
     display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+#coureurs h2{
+    width: 100%;
+}
+
+#coureurs > div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     border: black 1px solid;
     margin: 5px;
     border-radius: 5px;
+    width: 40%;
+    text-align: center;
 }
 
 footer div{
