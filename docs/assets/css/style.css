@@ -168,10 +168,14 @@ table{
     margin: 5px;
 }
 
-footer#src, footer#src a:visited{
+footer#src{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    color: white;
+}
+
+footer#src a:visited{
     color: white;
 }
 
