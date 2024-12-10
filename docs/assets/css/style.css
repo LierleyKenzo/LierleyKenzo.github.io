@@ -1,9 +1,9 @@
 /* règles pour grands écrans */
-@media (min-width: 761px){
+@media (min-width: 1001px){
 
 }
 
-@media (max-width: 760px){
+@media (max-width: 1000px){
     header li:nth-child(n+2){
         display: none;
     }
