@@ -1,14 +1,3 @@
-/* règles pour grands écrans */
-@media (min-width: 1001px){
-
-}
-
-@media (max-width: 1000px){
-    header li:nth-child(n+2){
-        display: none;
-    }
-}
-
 /* règles générales et pour petits écran */
 
 footer{
@@ -150,8 +139,6 @@ a{
 }
 
 body > nav{
-    position: sticky;
-    top: 0;
     background-color: white;
     display: flex;
     justify-content: space-around;
@@ -235,4 +222,21 @@ footer#src ul{
 
 footer#src li{
     margin: 7px;
+}
+
+/* règles pour grands écrans */
+@media (min-width: 1001px){
+    #coureurs > div{
+        width: 20%;
+    }
+    body > nav{
+        position: sticky;
+        top: 0;
+    }
+}
+
+@media (max-width: 1000px){
+    header li:nth-child(n+2){
+        display: none;
+    }
 }
