@@ -235,10 +235,6 @@ table{
 
 
 /* footer */
-footer div{
-    margin-bottom: 10px;
-}
-
 footer{
     background-color: rgb(21, 21, 30);
     color: white;
@@ -248,6 +244,10 @@ footer{
 }
 
 /* footer de index.html*/
+footer#fin h3{
+    font-family: Optima, sans-serif;
+}
+
 footer#fin > :nth-child(n+2){
     border-top: white solid 1px;
     margin-left: 15px;
@@ -269,6 +269,9 @@ footer#fin > :last-child{
 
 footer#fin{
     text-align: left;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
 }
 
 footer#fin > :first-child{
