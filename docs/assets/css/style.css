@@ -137,7 +137,6 @@ section#coureurs > div img{
 }
 
 #coureurs h3{
-    background-color: #222222;
     width: 100%;
     margin-top: 0;
     padding-top: 2%;
@@ -166,10 +165,46 @@ section#coureurs > div img{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-ul li{
-    list-style-type: none; /* enlève les points devant la liste */
-    margin-left: 10px;
-    margin-right: 10px;
+#verstappen h3, #perez h3{
+    background-color: #1b2333;
+}
+
+#sainz h3, #leclerc h3{
+    background-color: #de343d;
+}
+
+#hamilton h3, #russel h3{
+    background-color: #05b6b8;
+}
+
+#norris h3, #piastri h3{
+    background-color: #fc9335;
+}
+
+#alonso h3, #stroll h3{
+    background-color: #088786;
+}
+
+#gasly h3, #doohan h3{
+    background-color: #f59dcd;
+}
+
+#hulkenberg h3, #bearman h3{
+    background-color: white;
+    color: #de2333;
+}
+
+#tsunoda h3, #lawson h3{
+    color: #041328;
+    background-color: white;
+}
+
+#albon h3, #colapinto h3{
+    background-color: #11a2e3;
+}
+
+#zhou h3, #bottas h3{
+    background-color: #4ec168;
 }
 
 
@@ -193,6 +228,12 @@ html{
 #logo{
     width: 100px;
     height: 50px;
+}
+
+ul li{
+    list-style-type: none; /* enlève les points devant la liste */
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 
