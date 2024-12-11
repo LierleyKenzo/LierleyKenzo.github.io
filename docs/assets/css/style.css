@@ -1,13 +1,6 @@
 /* règles générales et pour petits écran */
 
-footer{
-    background-color: rgb(21, 21, 30);
-    color: white;
-    text-align: center;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-}
-
+/* header */
 strong{
     background-color: rgb(255,0,0);
     padding: 5px;
@@ -18,6 +11,57 @@ strong:hover{
     background-color: #ff6666;
 }
 
+
+
+
+
+/* nav du header */
+header nav{
+    font-size: larger;
+    text-align: center;
+}
+
+header nav a, header nav a:visited{
+    color: black;
+}
+
+body ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+
+
+/* barre de navigation */
+body > nav{
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    flex-grow: 1;
+    text-align: center;
+}
+
+body > nav a, body > nav a:visited{
+    display: block;
+    color: white;
+    background-color: rgb(21, 21, 30);
+    flex-grow: 1;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+body > nav a:hover{
+    color: black;
+    background-color: lightgrey;
+}
+
+
+
+
+
+/* section saison */
 section p:last-child a, section p:last-child a:visited{
     color: black;
 }
@@ -26,6 +70,20 @@ section p:last-child a:active strong{
     background-color: rgb(255,100,100);
 }
 
+
+
+
+
+/* accueil */
+.accueil{
+    text-align: center;
+}
+
+
+
+
+
+/* form (NewsLetter.html) */
 form{
     display: flex;
     flex-direction: column;
@@ -37,7 +95,26 @@ input[type="text"]{
     margin: 5px;
 }
 
-section > div img{
+button{
+    margin: 5px;
+    padding: 10px;
+    border-radius: 10px;
+    border: solid black 1px;
+    color: white;
+    background-color: red;
+}
+
+button:hover{
+    color: black;
+    background-color: #ff6666;
+}
+
+
+
+
+
+/* section coureurs */
+section#coureurs > div img{
     width: 70%;
     height: 70%;
 }
@@ -89,75 +166,20 @@ section > div img{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-footer div{
-    margin-bottom: 10px;
-}
-
-button{
-    margin: 5px;
-    padding: 10px;
-    border-radius: 10px;
-    border: solid black 1px;
-    color: white;
-    background-color: red;
-}
-
-button:hover{
-    color: black;
-    background-color: #ff6666;
-}
-
-.acceuil{
-    text-align: center;
-}
-
-/* enlève les points devant la liste */
-/* met la liste en ligne */
 ul li{
-    list-style-type: none;
+    list-style-type: none; /* enlève les points devant la liste */
     margin-left: 10px;
     margin-right: 10px;
 }
 
-body ul{
-    display: flex;
-    justify-content: space-around;
-}
 
-header nav{
-    font-size: larger;
-    text-align: center;
-}
 
-header nav a, header nav a:visited{
-    color: black;
-}
 
+
+/* général */
 /* enlève le soulignement des liens */
 a{
     text-decoration: none;
-}
-
-body > nav{
-    background-color: white;
-    display: flex;
-    justify-content: space-around;
-    flex-grow: 1;
-    text-align: center;
-}
-
-body > nav a, body > nav a:visited{
-    display: block;
-    color: white;
-    background-color: rgb(21, 21, 30);
-    flex-grow: 1;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-}
-
-body > nav a:hover{
-    color: black;
-    background-color: lightgrey;
 }
 
 body{
@@ -173,6 +195,11 @@ html{
     height: 50px;
 }
 
+
+
+
+
+/* section du classement*/
 td{
     text-align: center;
 }
@@ -203,6 +230,30 @@ table{
     margin: 5px;
 }
 
+
+
+
+
+/* footer */
+footer div{
+    margin-bottom: 10px;
+}
+
+footer#fin :nth-child(n+2){
+    border-top: white solid 1px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+footer{
+    background-color: rgb(21, 21, 30);
+    color: white;
+    text-align: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+/* footer de histoire.html*/
 footer#src{
     display: flex;
     flex-direction: column;
