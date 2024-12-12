@@ -11,6 +11,10 @@ strong:hover{
     background-color: #ff6666;
 }
 
+header li:nth-child(n+2){
+    display: none;
+}
+
 
 
 
@@ -345,6 +349,9 @@ footer#src li{
 /* règles pour grands écrans */
 @media (min-width: 1001px){
     /* header */
+    header li:nth-child(n+2){
+        display: unset;
+    }
 
 
 
@@ -364,8 +371,8 @@ footer#src li{
     /* footer*/
 }
 
-@media (max-width: 1000px){
-    header li:nth-child(n+2){
-        display: none;
-    }
-}
+/* pour faire ne sorte que l'image de fond s'étire
+background: url('../images/image.png'); 
+background-repeat: no-repeat;
+background-size: 100% 100%;
+*/
